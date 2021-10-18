@@ -9,7 +9,7 @@ import Foundation
 
 func task3() {
     print("Type a number: ")
-    if let firstNumber = Int(readLine()!){
+    let firstNumber = Int(readLine()!){
         print("Type another number: ")
         if let secondNumber = Int(readLine()!){
             print("The result of addition of your numbers is" + " " + String(firstNumber + secondNumber))

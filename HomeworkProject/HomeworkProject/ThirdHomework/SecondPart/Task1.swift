@@ -7,17 +7,60 @@
 
 import Foundation
 
-func task1() {
+func oddOrEven() {
     print("Type a number:")
-    if let number = int((readLine)!){
-        if var remainder = number % 2 == 0 {
+    let a = int((readLine)!){
+        if a % 2 == 0 {
             print("Your number is even")
         }
-        else if remainder = number % 2 != 0 {
-            print("Your number is odd")
-        }
         else {
-            print("It's not a number!")
+            print("Your number is odd")
         }
     }
 }
+
+func twoOrThreeDigits() {
+    print("Type a number:")
+    let a = int((readLine)!){
+        if a > 99 && a < 1000 {
+            print("Your number has 3 digits")
+        }
+        if a > 9 && a < 100 {
+            print("Your number has 2 digits")
+        }
+    }
+}
+
+func isNumberNegative() {
+    print("Type a number:")
+    let a = int((readLine)!){
+        if a < 0 {
+            print("Your number is negative")
+        }
+    }
+}
+
+func betweenTenAndMinusTen() {
+    print("Type a number:")
+    let a = int((readLine)!){
+        if a >= -10 && a <= 10 {
+            print("Your number is between of -10 and 10")
+        }
+        else {
+            print("Your number is not between of -10 and 10")
+        }
+    }
+}
+
+func evenNegativeOrOddPositive() {
+    print("Type a number:")
+    let a = int((readLine)!){
+        if a % 2 == 0 && a < 0 {
+            print("Your number is even and negative")
+        }
+        if a % 2 == 1 && a > 0 {
+            print("Your number is odd and positive")
+        }
+    }
+}
+

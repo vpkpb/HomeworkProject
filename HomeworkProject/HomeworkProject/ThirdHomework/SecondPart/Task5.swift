@@ -7,19 +7,11 @@
 
 import Foundation
 
-import Foundation
-
-func task1() {
+func task5() {
     print("Type an year to check if it is leap:")
-    if let year = int((readLine)!){
-        if var remainder = number % 4 == 0 {
+    let year = int((readLine)!){
+        if year % 4 == 0 && year % 100 != 0 || year % 400 == 0 {
             print("Your year is leap")
-        }
-        else if remainder = number % 4 != 0 {
-            print("Your year is not leap")
-        }
-        else {
-            print("You typed not a number!")
         }
     }
 }

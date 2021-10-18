@@ -9,7 +9,7 @@ import Foundation
 
 func task4() {
     print("Type your name: ")
-    if let name = readLine(){
+    let name = readLine(){
         print("Type your surname: ")
         if let surname = readLine(){
             print(name + " " + surname)

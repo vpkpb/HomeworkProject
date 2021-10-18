@@ -17,6 +17,8 @@
 		E74560AE26FBB11800258A72 /* Task2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74560AD26FBB11800258A72 /* Task2.swift */; };
 		E74560B126FBB3B800258A72 /* Task6.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74560B026FBB3B800258A72 /* Task6.swift */; };
 		E74560B426FBB50100258A72 /* Task5.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74560B326FBB50100258A72 /* Task5.swift */; };
+		E78338AA271AEBC50066DB7A /* Task3.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78338A9271AEBC50066DB7A /* Task3.swift */; };
+		E78338AD271AEBD50066DB7A /* Task4.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78338AC271AEBD50066DB7A /* Task4.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,6 +45,8 @@
 		E74560AD26FBB11800258A72 /* Task2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task2.swift; sourceTree = "<group>"; };
 		E74560B026FBB3B800258A72 /* Task6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task6.swift; sourceTree = "<group>"; };
 		E74560B326FBB50100258A72 /* Task5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task5.swift; sourceTree = "<group>"; };
+		E78338A9271AEBC50066DB7A /* Task3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task3.swift; sourceTree = "<group>"; };
+		E78338AC271AEBD50066DB7A /* Task4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task4.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +119,8 @@
 			children = (
 				E74560AA26FBAFB800258A72 /* Task1.swift */,
 				E74560AD26FBB11800258A72 /* Task2.swift */,
+				E78338A9271AEBC50066DB7A /* Task3.swift */,
+				E78338AC271AEBD50066DB7A /* Task4.swift */,
 				E74560B326FBB50100258A72 /* Task5.swift */,
 				E74560B026FBB3B800258A72 /* Task6.swift */,
 			);
@@ -185,7 +191,9 @@
 				E74560AE26FBB11800258A72 /* Task2.swift in Sources */,
 				E74560AB26FBAFB800258A72 /* Task1.swift in Sources */,
 				E74560A126FBAAA800258A72 /* Task4.swift in Sources */,
+				E78338AA271AEBC50066DB7A /* Task3.swift in Sources */,
 				E745609226F47F2D00258A72 /* Task2.swift in Sources */,
+				E78338AD271AEBD50066DB7A /* Task4.swift in Sources */,
 				E74560B426FBB50100258A72 /* Task5.swift in Sources */,
 				E745609A26F485A000258A72 /* main.swift in Sources */,
 			);
